@@ -349,9 +349,11 @@ img {
 }
 
 /* Menú contenido*/
-/* .menu__content{
-  position: initial;
-} */
+.menu__content{
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
 .menu__content-title,.menu__content-subtitle{
   text-align: center;
   margin: .5rem;
